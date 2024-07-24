@@ -1,0 +1,35 @@
+:root{
+    --var-bg:#A164df;
+    --var-btn-bg:#663399;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--var-bg);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+.btn{
+    margin:16px;
+    padding: 24px 48px;
+    background-color: var(--var-btn-bg);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#663399ee ;
+}
+
+
+
